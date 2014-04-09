@@ -1,0 +1,19 @@
+.map_collection_list {
+
+    float: right;
+    margin: 0 !important;
+
+}
+
+.map_collection_list li {
+
+    list-style-type: none !important;
+
+}
+
+.map_collection_list a {
+
+    text-decoration: none;
+    border-bottom: 1px dashed;
+
+}

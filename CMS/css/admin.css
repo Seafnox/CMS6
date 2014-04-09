@@ -1,0 +1,34 @@
+/* 
+    Document   : admin.css
+    Created on : 20.08.2012, 1:12:13
+    Author     : 1
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    min-width: 1000px;
+}
+
+
+/*Фикс различий в добавлении классов серверной и ajax валидации ActiveForm */
+
+.success .error {
+    border-color: #468847 !important;
+    color: #468847 !important;
+}
+
+
+/*Фикс выравнивание я checkbox*/
+
+/*
+label.checkbox input[type="checkbox"] {
+    margin-top: -4px;
+}
+*/
+
+/*Фикс смещения*/
+
+.row {
+    margin-left: 0 !important;
+}
